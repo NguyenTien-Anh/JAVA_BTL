@@ -1,0 +1,51 @@
+#header {
+    margin-bottom: 25px;
+}
+
+#header .container .header-banner {
+    position: relative;
+}
+
+#header .container .header-banner img {
+    width: 100%;
+}
+
+#header .container .header-navbar {
+    position: relative;
+}
+
+#header .container .header-navbar .nav-left-right .header-navbar--content {
+    justify-content: space-evenly;
+}
+
+#header .container .header-navbar .nav-left-right .header-navbar--content .navbar-select {
+    width: 100%;
+}
+
+#header .container .header-navbar .nav-left-right .header-navbar--content .navbar-select ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#header .container .header-navbar .nav-left-right .header-navbar--content .navbar-select ul li {
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+#header .container .header-navbar .nav-left-right .header-navbar--content .navbar-select form {
+    padding: 10px;
+    width: 60%;
+    display: inline-block;
+}
+
+#header #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.sales .col-12 {
+    padding: 0;
+}
+
+.sales .sales-title {
+    padding-left: 15px;
+}
+
+.sales .sales-content {
+    padding: 15px 15px 0 15px;
+    border: 1px solid black;
+}
+
+.sales .sales-content .card-group {
+    padding-bottom: 30px;
+}
+
+.sales .sales-content .card-group .card {
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.sales .sales-content .card-group .card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.sales .sales-content .card-group .card a .card-header {
+    padding: 0;
+}
+
+.sales .sales-content .card-group .card a .card-header img {
+    width: 100%;
+}
+
+.sales .sales-content .card-group .card-laptop-item {
+    margin: 0;
+    padding: 0;
+}
+
+.sales .sales-content .card-group .card-laptop-item a {
+    display: block;
+    height: 100%;
+}
+
+.sales .sales-content .card-group .card-laptop-item a .card-header {
+    height: 50%;
+}
+
+.sales .sales-content .card-group .card-laptop-item a .card-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.sales .sales-content .card-group .card-laptop-item a .card-body {
+    height: 35%;
+}
+
+.sales .sales-content .card-group .card-laptop-item a .card-footer {
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.sales .sales-content .card-group .card-laptop-item a .card-footer span:nth-child(2) {
+    font-size: 1.4rem;
+    color: red;
+}

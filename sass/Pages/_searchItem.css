@@ -1,0 +1,67 @@
+.searchItem .searchItem-title {
+  padding-left: 15px;
+}
+
+.searchItem .searchItem-content {
+  padding: 15px 15px 0 15px;
+  border: 1px solid black;
+}
+
+.searchItem .searchItem-content .card-group {
+  padding-bottom: 30px;
+}
+
+.searchItem .searchItem-content .card-group .card {
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.searchItem .searchItem-content .card-group .card a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.searchItem .searchItem-content .card-group .card a .card-header {
+  padding: 0;
+}
+
+.searchItem .searchItem-content .card-group .card a .card-header img {
+  width: 100%;
+}
+
+.searchItem .searchItem-content .card-group .card-laptop-item {
+  margin: 0;
+  padding: 0;
+}
+
+.searchItem .searchItem-content .card-group .card-laptop-item a {
+  display: block;
+  height: 100%;
+}
+
+.searchItem .searchItem-content .card-group .card-laptop-item a .card-header {
+  height: 50%;
+}
+
+.searchItem .searchItem-content .card-group .card-laptop-item a .card-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.searchItem .searchItem-content .card-group .card-laptop-item a .card-body {
+  height: 35%;
+}
+
+.searchItem .searchItem-content .card-group .card-laptop-item a .card-footer {
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+.searchItem .searchItem-content .card-group .card-laptop-item a .card-footer span:nth-child(2) {
+  font-size: 1.4rem;
+  color: red;
+}

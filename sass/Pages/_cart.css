@@ -1,0 +1,65 @@
+.cartItem .container #tblItem {
+    text-align: center;
+    border-spacing: 10px;
+}
+
+.cartItem .container #tblItem #tblHead tr {
+    width: 100%;
+}
+
+.cartItem .container #tblItem #tblBody tr td:nth-child(1) img {
+    width: 150px;
+    height: 150px;
+}
+
+.cartItem .container #tblItem #tblBody tr td:nth-child(2) {
+    width: 25%;
+}
+
+.cartItem .container #tblItem #tblBody tr td:nth-child(3) {
+    color: orangered;
+}
+
+.cartItem .container #tblItem #tblBody tr td:nth-child(4) input {
+    width: 30%;
+}
+
+.cartItem .container #tblItem #tblBody tr td:nth-child(5) {
+    color: orangered;
+}
+
+.cartItem .container #tblItem #tblFooter {
+    text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+    .cartItem .container #tblItem {
+        text-align: center;
+        border-spacing: 2px;
+    }
+
+    .cartItem .container #tblItem #tblHead tr {
+        width: 100%;
+    }
+
+    .cartItem .container #tblItem #tblBody tr td:nth-child(1) img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cartItem .container #tblItem #tblBody tr td:nth-child(3) {
+        color: orangered;
+    }
+
+    .cartItem .container #tblItem #tblBody tr td:nth-child(4) input {
+        width: 3px;
+    }
+
+    .cartItem .container #tblItem #tblBody tr td:nth-child(5) {
+        color: orangered;
+    }
+
+    .cartItem .container #tblItem #tblFooter {
+        text-align: left;
+    }
+}

@@ -1,0 +1,25 @@
+.filter {
+    margin: 25px 0;
+}
+
+.filter .container .row .card {
+    text-align: center;
+}
+
+.filter .container .row .card a {
+    width: 100px;
+    height: 25px;
+}
+
+.filter .container .row .card a img {
+    width: 100%;
+    height: 100%;
+}
+
+.filter .container .row .dropdown {
+    margin-right: 20px;
+}
+
+.filter .container .row .dropdown a {
+    padding: 10px;
+}

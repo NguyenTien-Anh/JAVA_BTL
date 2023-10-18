@@ -1,0 +1,135 @@
+#account .container .row #account__left {
+  width: 20%;
+}
+
+#account .container .row #account__left ul {
+  list-style-type: none;
+}
+
+#account .container .row #account__left ul li {
+  margin-left: 10px;
+}
+
+#account .container .row #account__left ul li a {
+  color: black;
+  display: block;
+  padding: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+#account .container .row #account__left ul .active {
+  background-color: #ffa600;
+}
+
+#account .container .row #account__right {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#account .container .row #account__right #myAccount {
+  display: block;
+}
+
+#account .container .row #account__right #myAccount #thongTinTaiKhoan {
+  display: flex;
+  justify-content: space-around;
+}
+
+#account .container .row #account__right #myAccount #thongTinTaiKhoan #account__img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#account .container .row #account__right #myAccount #thongTinTaiKhoan #account__img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#account .container .row #account__right #myAccount #thongTinTaiKhoan #account__img i {
+  font-size: 25px;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  display: none;
+}
+
+#account .container .row #account__right #myAccount #thongTinTaiKhoan #account__img:hover {
+  cursor: pointer;
+}
+
+#account .container .row #account__right #myAccount #thongTinTaiKhoan #account__img:hover i {
+  display: block;
+}
+
+#account .container .row #account__right #trangThaiDonHang {
+  display: none;
+}
+
+#account .container .row #account__right #trangThaiDonHang #trangThaiDonHang_tblItem {
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+}
+
+#account .container .row #account__right #trangThaiDonHang #trangThaiDonHang_tblItem #trangThaiDonHang_tblHead tr {
+  width: 100%;
+}
+
+#account .container .row #account__right #trangThaiDonHang #trangThaiDonHang_tblItem #trangThaiDonHang_tblBody tr td:nth-child(1) img {
+  width: 150px;
+  height: 150px;
+}
+
+#account .container .row #account__right #trangThaiDonHang #trangThaiDonHang_tblItem #trangThaiDonHang_tblBody tr td:nth-child(4) {
+  color: orangered;
+}
+
+#account .container .row #account__right #trangThaiDonHang #trangThaiDonHang_tblItem #trangThaiDonHang_tblBody tr td:nth-child(6) {
+  color: orangered;
+}
+
+#account .container .row #account__right #lichSuMuaHang {
+  display: none;
+}
+
+#account .container .row #account__right #lichSuMuaHang .lichSuMuaHang #tblItem {
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+}
+
+#account .container .row #account__right #lichSuMuaHang .lichSuMuaHang #tblItem #lichSuMuaHang_tblHead tr {
+  width: 100%;
+}
+
+#account .container .row #account__right #lichSuMuaHang .lichSuMuaHang #tblItem #lichSuMuaHang_tblBody tr td:nth-child(1) img {
+  width: 150px;
+  height: 150px;
+}
+
+#account .container .row #account__right #lichSuMuaHang .lichSuMuaHang #tblItem #lichSuMuaHang_tblBody tr td:nth-child(4) {
+  color: orangered;
+}
+
+#account .container .row #account__right #lichSuMuaHang .lichSuMuaHang #tblItem #lichSuMuaHang_tblBody tr td:nth-child(6) {
+  color: orangered;
+}
+
+#account .container .row #account__right #doiMatKhau {
+  display: none;
+}
+
+#account .container .row #account__right #doiMatKhau form {
+  width: 50%;
+  margin: 50px auto;
+}

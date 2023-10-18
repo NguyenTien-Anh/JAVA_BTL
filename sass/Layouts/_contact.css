@@ -1,0 +1,42 @@
+.contact .container .contact-title h2 {
+    padding: 25px 0 0 15px;
+}
+
+.contact .container .contact-form .contact__content {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.contact .container .contact-form .contact__content .contact__left {
+    width: 50%;
+    margin: 0 1rem;
+}
+
+.contact .container .contact-form .contact__content .contact__right {
+    width: 50%;
+    margin: 0 1rem;
+}
+
+.contact .container .contact-form .contact__content .contact__right button {
+    padding: 1rem 16.3rem;
+    color: black;
+    margin: 1rem 0;
+    transition: all 0.5s;
+}
+
+.contact .container .contact-form .contact__content input,
+.contact .container .contact-form .contact__content textarea {
+    background-color: #efefef;
+    border: 0px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: white;
+    resize: none;
+    font-weight: bold;
+    border-bottom: 3px solid #bbb;
+}
+
+.contact .container .contact-form .contact__content input:focus,
+.contact .container .contact-form .contact__content textarea:focus {
+    outline: none;
+}
