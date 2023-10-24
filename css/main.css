@@ -871,4 +871,15 @@ footer .bottom p {
 
 /* end css new item in index.html */
 
+/* title */
+
+.item-title,
+.bestseller-title,
+.sales-title {
+  border-bottom: 4px solid #1ca7fb;
+  color: #1ca7fb;
+}
+
+/* end title */
+
 /*# sourceMappingURL=main.css.map */
