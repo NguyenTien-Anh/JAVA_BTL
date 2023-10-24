@@ -20,6 +20,10 @@ body {
   outline: none;
 }
 
+.border-none {
+  border: none !important;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -29,6 +33,13 @@ a:hover {
   color: black;
   text-decoration: none;
 }
+
+/* start css handle */
+.flex-col {
+  flex-direction: column;
+}
+
+/* end css handle */
 
 @media screen and (max-width: 500px) {
   body {
@@ -817,6 +828,47 @@ footer .bottom p {
   justify-content: space-around;
 }
 
+.box-shadow {
+  box-shadow: 5px 10px 8px #ccc;
+}
+
 /* end css filter section in index.html */
+
+
+/* start css new item in index.html */
+
+.card-group .card .card-body .card-title {
+  font-size: 18px;
+  color: cornflowerblue;
+}
+
+.card-body {
+  padding: 16px !important;
+}
+
+.card-group .card .card-footer {
+  font-size: 16px;
+}
+
+.card-footer {
+  border-top: none;
+  margin-top: -16px;
+}
+
+.card-group .card .card-header {
+  height: 170px;
+  padding: 0px !important;
+}
+
+.card-group .card .card-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-group .card {
+  border: 1px solid #ccc !important;
+}
+
+/* end css new item in index.html */
 
 /*# sourceMappingURL=main.css.map */

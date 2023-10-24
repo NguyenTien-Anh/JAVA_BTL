@@ -12,8 +12,6 @@
 }
 
 .item .item-content .card-group .card {
-    padding: 0;
-    border: 1px solid black;
     border-radius: 5px;
 }
 
